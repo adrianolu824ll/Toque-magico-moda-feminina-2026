@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Toque Mágico</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(180deg,#ffffff,#ffe4ef);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    position:relative;
+}
+
+/* Flores */
+.flower{
+    position:absolute;
+    font-size:40px;
+    opacity:.18;
+    animation:float 8s ease-in-out infinite;
+}
+
+.f1{top:5%;left:5%;}
+.f2{top:12%;right:8%;}
+.f3{bottom:10%;left:10%;}
+.f4{bottom:8%;right:8%;}
+.f5{top:45%;left:3%;}
+.f6{top:45%;right:3%;}
+
+@keyframes float{
+    0%,100%{transform:translateY(0);}
+    50%{transform:translateY(-18px);}
+}
+
+.card{
+    width:90%;
+    max-width:500px;
+    background:#fff;
+    border-radius:25px;
+    padding:40px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(255,105,180,.25);
+    border:3px solid #ffc0cb;
+}
+
+.logo{
+    font-size:55px;
+}
+
+h1{
+    color:#e91e63;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+
+p{
+    color:#666;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:block;
+    width:100%;
+    text-decoration:none;
+    padding:16px;
+    margin:15px 0;
+    border-radius:50px;
+    color:white;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.whatsapp{
+    background:#25D366;
+}
+
+.whatsapp:hover{
+    transform:scale(1.03);
+}
+
+.instagram{
+    background:linear-gradient(45deg,#833AB4,#E1306C,#F77737);
+}
+
+.instagram:hover{
+    transform:scale(1.03);
+}
+
+footer{
+    margin-top:25px;
+    color:#e91e63;
+    font-size:14px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="flower f1">🌸</div>
+<div class="flower f2">🌷</div>
+<div class="flower f3">🌺</div>
+<div class="flower f4">🌼</div>
+<div class="flower f5">🌹</div>
+<div class="flower f6">💐</div>
+
+<div class="card">
+
+<div class="logo">🌸</div>
+
+<h1>Toque Mágico</h1>
+
+<p>
+Delicadeza, charme e beleza em cada detalhe. 💕
+</p>
+
+<a class="btn whatsapp"
+href="https://wa.me/5511943374143"
+target="_blank">
+📱 Entre em contato pelo WhatsApp
+</a>
+
+<a class="btn instagram"
+href="https://www.instagram.com/toque.magicolingerie?igsh=MXNsdWhodGk5dWd6ZQ=="
+target="_blank">
+📷 Visite nosso Instagram
+</a>
+
+<footer>
+🌸 Toque Mágico © 2026 🌸
+</footer>
+
+</div>
+
+</body>
+</html>
